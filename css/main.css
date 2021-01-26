@@ -1,0 +1,77 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+header #header {
+     padding: 2rem;
+     background-color: dodgerblue;
+     color: white;
+     text-align: center;
+}
+
+header #header h1 {
+     margin-bottom: 2rem;
+}
+
+header #header span {
+     font-style: italic;
+}
+
+main {
+     display: flex;
+     flex-direction: column;
+}
+
+main #register {
+     display: flex;
+     justify-content: center;
+}
+
+main #register form {
+     padding: 5rem;
+     margin: 1rem;
+     width: fit-content;
+}
+
+main #register form input {
+     padding: 0.5rem;
+     outline: none;
+     border: none;
+     border-bottom: 2px solid grey;
+}
+
+main #register form input:hover {
+     border-bottom: 2px solid dodgerblue;
+}
+
+main #register form input:focus {
+     border-bottom: 2px solid dodgerblue;
+}
+
+main #registered {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+
+main #registered h2 {
+     font-weight: lighter;
+     margin-bottom: 2rem;
+}
+
+main #registered ul {
+     display: flex;
+     flex-direction: column;
+}
+
+main #registered ul li{
+     list-style: none;
+     margin-left: 2rem;
+}
+
+main #registered ul button {
+     text-align: center;
+     padding: 0.5rem;
+
+}
